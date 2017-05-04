@@ -76,6 +76,11 @@ $( document ).ready(function()
 	$("#download").click(function() 
 	{
 		switchForm(3);
+		
+		setTimeout(function()
+		{
+			window.open("download/Project Veloce.rar");	
+		}, 400);		
 	});
 	
 	$("#facebook").click(function() 
@@ -83,4 +88,3 @@ $( document ).ready(function()
 		window.open("https://www.facebook.com/pk.razby");
 	});
 });
-
